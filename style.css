@@ -2,6 +2,7 @@
 body {
   margin: 0;
   font-family: 'Courier New', Courier, monospace;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
 }
@@ -51,6 +52,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex: 1;
 }
 
 .left-side {
@@ -85,4 +87,28 @@ body {
 
 .sign-up:hover {
   background-color: #276edf;
+}
+
+/* Info */
+
+.info {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: center;
+}
+
+#info-header {
+  font-size: 36px;
+  font-weight: 800;
+  color: #1f2937;
+  align-self: center;
+  margin: 20px;
+}
+
+#info-list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  justify-content: space-around;
 }
