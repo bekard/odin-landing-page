@@ -119,6 +119,8 @@ body {
 
 #info-list {
   display: flex;
+  flex-wrap: wrap;
+  justify-items: center;
   margin: 0;
   padding: 0;
   justify-content: space-around;
@@ -126,5 +128,36 @@ body {
 
 #info-list img {
   max-width: 200px;
-  border-radius: 4px;
+  border-radius: 8px;
+  border: #3882f6 solid 2px;
+}
+
+/* Quote */
+
+.quote {
+  flex: 1;
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.quote div {
+  display: flex;
+  flex-direction: column;
+}
+
+.quote.text {
+  max-width: 50%;
+  max-height: 50%;
+}
+
+.quote .text {
+  /*font-size: 36px;*/
+  font-weight: 300;
+}
+
+.quote .author {
+  text-align: end;
 }
