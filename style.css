@@ -51,23 +51,19 @@ body {
 .description {
   display: flex;
   align-items: center;
-  /*justify-content: space-between;*/
   gap: 30px;
   flex: 1;
-}
-
-.description img {
 }
 
 .left-side {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  flex: 1 0% 500px;
+  flex: 1 1 50%;
 }
 
 .my-img {
-  flex: 1 1 auto;
+  flex: 1 1 50%;
 }
 
 .my-img img {
