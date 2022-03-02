@@ -52,7 +52,7 @@ body {
   display: flex;
   align-items: center;
   gap: 30px;
-  flex: 1;
+  flex: 1 1 auto;
 }
 
 .left-side {
@@ -67,6 +67,7 @@ body {
 }
 
 .my-img img {
+  border-radius: 4px;
   max-width: 100%;
   max-height: 100%;
 }
@@ -104,7 +105,7 @@ body {
 .info {
   display: flex;
   flex-direction: column;
-  flex: 1;
+  flex: 1 1 auto;
   justify-content: center;
 }
 
@@ -121,4 +122,9 @@ body {
   margin: 0;
   padding: 0;
   justify-content: space-around;
+}
+
+#info-list img {
+  max-width: 200px;
+  border-radius: 4px;
 }
