@@ -119,11 +119,17 @@ body {
 
 #info-list {
   display: flex;
+  
   flex-wrap: wrap;
   justify-items: center;
   margin: 0;
   padding: 0;
-  justify-content: space-around;
+  /*justify-content: space-around;*/
+}
+
+#info-list ul {
+  padding-left:10%;
+  padding-right:10%;
 }
 
 #info-list img {
@@ -160,4 +166,13 @@ body {
 
 .quote .author {
   text-align: end;
+}
+
+/* Footer */
+
+.footer {
+  display: flex;
+  flex: 0 0 60px;
+  align-items: center;
+  justify-content: center;
 }
