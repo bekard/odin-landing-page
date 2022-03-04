@@ -51,11 +51,12 @@ body {
 .description {
   display: flex;
   align-items: center;
-  gap: 30px;
+  justify-content: space-between;
   flex: 1 1 auto;
 }
 
 .left-side {
+  margin-right: 20px;
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -63,13 +64,15 @@ body {
 }
 
 .my-img {
-  flex: 1 1 50%;
+  display: flex;
+  flex: 1 1 auto;
+  justify-content: flex-end;
 }
 
 .my-img img {
   border-radius: 4px;
-  max-width: 100%;
-  max-height: 100%;
+  max-width: 400px;
+  max-height: auto;
 }
 
 .main {
@@ -142,7 +145,8 @@ body {
 /* Quote */
 
 .quote {
-  flex: 1;
+  flex: 1 1 auto;
+
   background-color: #e5e7eb;
   display: flex;
   flex-direction: column;
