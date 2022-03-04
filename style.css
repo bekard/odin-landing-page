@@ -83,17 +83,19 @@ body {
   color: #e5e7eb;
 }
 
-.description .sign-up {
-  background-color: #3882f6;
-  flex: 0 1 auto;
+.sign-up {
+  vertical-align: middle;
   border-radius: 8px;
-  max-width: 125px;
+  width: 100px;
+  height: 20px;
   padding: 8px;
   font-size: 18px;
   font-weight: 700;
   color: #f9faf8;
+  background-color: #3882f6;
   border: none;
   font-family: 'Courier New', Courier, monospace;
+  box-sizing: content-box;
 }
 
 .sign-up:hover {
@@ -123,8 +125,7 @@ body {
   justify-items: center;
   margin: 0;
   padding: 0;
-  gap: 5%;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 #info-list ul {
@@ -172,11 +173,35 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-left: 20%;
+  padding-right: 20%;
 }
 
 .blue {
   display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #3882f6;
+  border-radius: 8px;
+  flex: 1;
+  padding: 40px;
 }
+
+.call {
+  color: #f9faf8;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+#click {
+  color: #e5e7eb;
+}
+
+.blue .sign-up {
+  border: #f9faf8 solid 2px;
+}
+
+
 
 /* Footer */
 
